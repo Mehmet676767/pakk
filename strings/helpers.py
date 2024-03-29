@@ -2,30 +2,29 @@ HELP_1 = """🙄**<u>ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</u>**
 
 ᴊᴜsᴛ ᴀᴅᴅ **ᴄ** ɪɴ ᴛʜᴇ sᴛᴀʀᴛɪɴɢ ᴏғ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ᴜsᴇ ᴛʜᴇᴍ ғᴏʀ ᴄʜᴀɴɴᴇʟ.
 
-/pause : ᴩᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
-/resume : ʀᴇsᴜᴍᴇ ᴛʜᴇ ᴩᴀᴜsᴇᴅ sᴛʀᴇᴀᴍ.
-/mute : ᴍᴜᴛᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
-/unmute : ᴜɴᴍᴜᴛᴇ ᴛʜᴇ ᴍᴜᴛᴇᴅ sᴛʀᴇᴀᴍ.
-/skip : sᴋɪᴩ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛ sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ɴᴇxᴛ ᴛʀᴀᴄᴋ ɪɴ ǫᴜᴇᴜᴇ.
-/end ᴏʀ /stop : ᴄʟᴇᴀʀs ᴛʜᴇ ǫᴜᴇᴜᴇ ᴀɴᴅ ᴇɴᴅ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
-/shuffle : sʜᴜғғʟᴇ ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs.
-/seek : sᴇᴇᴋ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.
-/seekback : ʙᴀᴄᴋᴡᴀʀᴅ sᴇᴇᴋ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.
+/pause : çalan akışı durdurur.
+/resume : Duraklatılmış akışı devam ettirir.
+/mute : şarkıyı sessize alır.
+/unmute : şarkıyı sessizden çıkarır .
+/atla : Sıradaki parçayı atlar ve çalan akışı sonlandırır.
+/son ᴏʀ /stop : Sıradaki parçayı atlar ve çalan akışı sonlandırır.
+/shuffle : Sıradaki parçaları karıştırır.
+/seek : [saniye cinsinden süre] : Yayını belirtilen süreye atlar
+/seekback : [saniye cinsinden süre] : Yayını belirtilen süre kadar geri alır.
 /reboot : ʀᴇʙᴏᴏᴛs ᴛʜᴇ ʙᴏᴛ ғᴏʀ ʏᴏᴜʀ ᴄʜᴀᴛ.
 
 🥴<u>**ʟᴏᴏᴩ ᴩʟᴀʏ :**</u>
 
-/loop [ᴅɪsᴀʙʟᴇ/ᴇɴᴀʙʟᴇ] ᴏʀ [ʙᴇᴛᴡᴇᴇɴ 1:10] 
-    : ᴡʜᴇɴ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ʙᴏᴛ ᴡɪʟʟ ᴩʟᴀʏ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ɪɴ ʟᴏᴏᴩ ғᴏʀ 10 ᴛɪᴍᴇs ᴏʀ ᴛʜᴇ ɴᴜᴍʙᴇʀ ᴏғ ʀᴇǫᴜᴇsᴛᴇᴅ ʟᴏᴏᴩs.
-
+/loop [enable/disable] : Ongoing yayın için döngüyü etkinleştirir/devre dışı bırakır
+    : [1, 2, 3, ...] : Verilen değer için döngüyü etkinleştirir
 😜<u>**ᴀᴜᴛʜ ᴜsᴇʀs :**</u>
 
 ᴀᴜᴛʜ ᴜsᴇʀs ᴄᴀɴ ᴜsᴇ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ᴛʜᴇ ʙᴏᴛ ᴡɪᴛʜᴏᴜᴛ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ᴛʜᴇ ᴄʜᴀᴛ.
 
-/auth [ᴜsᴇʀɴᴀᴍᴇ] : ᴀᴅᴅ ᴀ ᴜsᴇʀ ᴛᴏ ᴀᴜᴛʜ ʟɪsᴛ ᴏғ ᴛʜᴇ ʙᴏᴛ.
-/unauth [ᴜsᴇʀɴᴀᴍᴇ] : ʀᴇᴍᴏᴠᴇ ᴀ ᴀᴜᴛʜ ᴜsᴇʀs ғʀᴏᴍ ᴛʜᴇ ᴀᴜᴛʜ ᴜsᴇʀs ʟɪsᴛ.
-/authusers : sʜᴏᴡs ᴛʜᴇ ᴀᴜᴛʜ ᴜsᴇʀs ʟɪsᴛ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴩ.
-**ᴘᴏᴡʀᴇᴅ © ʙʏ** @Kurucu_sahipp"""
+/auth [kullanıcı adı/kullanıcı_ID]**: Bir kullanıcıyı botun yetkili listesine ekler.
+/unauth [kullanıcı adı/kullanıcı_ID]**: Bir kullanıcıyı yetkili kullanıcılar listesinden çıkarır.
+/authusers : Yetkili kullanıcıların listesini gösterir.
+**ᴘᴏᴡʀᴇᴅ © ʙʏ** @Mehmetbeydiyeceksinizzz"""
 
 
 HELP_2 = """💞<u>**ᴩʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs:**</u>
@@ -38,40 +37,39 @@ HELP_2 = """💞<u>**ᴩʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs:**</u>
 **v** sᴛᴀɴᴅs ғᴏʀ ᴠɪᴅᴇᴏ ᴩʟᴀʏ.
 **force** sᴛᴀɴᴅs ғᴏʀ ғᴏʀᴄᴇ ᴩʟᴀʏ.
 
-/play ᴏʀ /vplay ᴏʀ /cplay  : sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.
+/play ᴏʀ /vplay ᴏʀ /cplay  : Video sohbetinde istenilen parçayı çalmaya başlar.
 
-/playforce ᴏʀ /vplayforce ᴏʀ /cplayforce :  **ғᴏʀᴄᴇ ᴩʟᴀʏ** sᴛᴏᴩs ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ.
+/playforce ᴏʀ /vplayforce ᴏʀ /cplayforce :  **ғᴏʀᴄᴇ ᴩʟᴀʏ** Devam eden yayını durdurur ve istenilen parçayı çalmaya başlar.
 
-/channelplay [ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ] ᴏʀ [ᴅɪsᴀʙʟᴇ] : ᴄᴏɴɴᴇᴄᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀ ɢʀᴏᴜᴩ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋs ʙʏ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴄᴏᴍᴍᴀɴᴅs sᴇɴᴛ ɪɴ ɢʀᴏᴜᴩ.
-
+/channelplay [sohbet kullanıcı adı veya ID] veya [devre dışı] : Kanalı bir gruba bağlar ve grup tarafından gönderilen komutlarla parçaların yayınını başlatır.
 
 🤨**<u>sᴇʀᴠᴇʀ ᴩʟᴀʏʟɪsᴛs:</u>**
 
 /playlist  : ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴩʟᴀʏʟɪsᴛ ᴏɴ sᴇʀᴠᴇʀs.
 /deleteplaylist : ᴅᴇʟᴇᴛᴇ ᴀɴʏ sᴀᴠᴇᴅ ᴛʀᴀᴄᴋ ɪɴ ʏᴏᴜʀ ᴩʟᴀʏʟɪsᴛ.
 /play  : sᴛᴀʀᴛs ᴩʟᴀʏɪɴɢ ғʀᴏᴍ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴩʟᴀʏʟɪsᴛ ᴏɴ sᴇʀᴠᴇʀ.
-**ᴘᴏᴡʀᴇᴅ © ʙʏ** @Kurucu_sahipp"""
+**ᴘᴏᴡʀᴇᴅ © ʙʏ** @Mehmetbeydiyeceksinizzz"""
 
 
 HELP_3 = """😉<u>**ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs:**</u>
 
-/stats : ɢᴇᴛ ᴛᴏᴩ 10 ᴛʀᴀᴄᴋ ɢʟᴏʙᴀʟ sᴛᴀᴛs, ᴛᴏᴩ 10 ᴜsᴇʀs ᴏғ ᴛʜᴇ ʙᴏᴛ, ᴛᴏᴩ 10 ᴄʜᴀᴛs ᴏɴ ᴛʜᴇ ʙᴏᴛ, ᴛᴏᴩ 10 ᴩʟᴀʏᴇᴅ ɪɴ ᴛʜᴇ ᴄʜᴀᴛ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ...
+/stats : Botun genel istatistiklerini gösterir...
 /sudolist : sʜᴏᴡs ᴛʜᴇ sᴜᴅᴏ ᴜsᴇʀs ᴏғ ᴍᴜsɪᴄ ʙᴏᴛ.
-/lyrics [sᴏɴɢ ɴᴀᴍᴇ] : sᴇᴀʀᴄʜ ʟʏʀɪᴄs ғᴏʀ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ sᴏɴɢ.
-/song [sᴏɴɢ ɴᴀᴍᴇ] or [ʏᴛ ʟɪɴᴋ] : ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ʏᴏᴜᴛᴜʙᴇ ᴛʀᴀᴄᴋ ɪɴ ᴀᴜᴅɪᴏ ᴏʀ ᴠɪᴅᴇᴏ ғᴏʀᴍᴀᴛ.
-/player :  ɢᴇᴛ ᴀ ɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ᴩʟᴀʏᴇʀ ᴩᴀɴᴇʟ.
-/queue : sʜᴏᴡs ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ʟɪsᴛ.
-**ᴘᴏᴡʀᴇᴅ © ʙʏ** @Kurucu_sahipp"""
+/lyrics [şarkı adı] : şarkı sözleri arar.
+/song  [şarkı adı/YouTube URL] : YouTube'dan herhangi bir parçayı MP3 veya MP4 formatında indirir.
+/player :  Etkileşimli bir oynatıcı paneli alır.
+/queue : Sıradaki parçaların listesini gösterir.
+**ᴘᴏᴡʀᴇᴅ © ʙʏ** @Mehmetbeydiyeceksinizzz"""
 
 HELP_4 = """😴<u>**ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅs:**</u>
 
-/start : sᴛᴀʀᴛs ᴛʜᴇ ᴍᴜsɪᴄ ʙᴏᴛ.
-/help  : ɢᴇᴛ ʜᴇʟᴩ ᴍᴇɴᴜ ᴡɪᴛʜ ᴇxᴩʟᴀɴᴀᴛɪᴏɴ ᴏғ ᴄᴏᴍᴍᴀɴᴅs.
-/ping: sʜᴏᴡ ᴛʜᴇ ᴩɪɴɢ ᴀɴᴅ sʏsᴛᴇᴍ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
+/start : Müzik botunu başlatır.
+/help  : Komutların açıklamalarıyla yardım menüsünü alır.
+/ping: Botun ping ve sistem istatistiklerini gösterir.
 
 🧐<u>**ɢʀᴏᴜᴩ sᴇᴛᴛɪɴɢs:**</u>
 /settings : sʜᴏᴡs ᴛʜᴇ ɢʀᴏᴜᴩ sᴇᴛᴛɪɴɢs ᴡɪᴛʜ ᴀɴ ɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɪɴʟɪɴᴇ ᴍᴇɴᴜ.
-**ᴘᴏᴡʀᴇᴅ © ʙʏ** @Kurucu_sahipp"""
+**ᴘᴏᴡʀᴇᴅ © ʙʏ** @Mehmetbeydiyeceksinizzz"""
 
 HELP_5 = """🥺**<u>ᴀᴅᴅ & ʀᴇᴍᴏᴠᴇ sᴜᴅᴏᴇʀs:</u>**
 /addsudo [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ]
@@ -90,7 +88,7 @@ HELP_5 = """🥺**<u>ᴀᴅᴅ & ʀᴇᴍᴏᴠᴇ sᴜᴅᴏᴇʀs:</u>**
 /update : ᴜᴩᴅᴀᴛᴇs ᴛʜᴇ ʙᴏᴛ ғʀᴏᴍ ᴛʜᴇ ᴜᴩsᴛʀᴇᴀᴍ ʀᴇᴩᴏ.
 /speedtest : ᴄʜᴇᴄᴋ ʙᴏᴛ's sᴇʀᴠᴇʀ sᴩᴇᴇᴅ.
 /maintenance [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] 
-/logger [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] : ʙᴏᴛ ᴡɪʟʟ sᴛᴀʀᴛ ʟᴏɢɢɪɴɢ ᴛʜᴇ ᴀᴄᴛɪᴠɪᴛɪᴇs ʜᴀᴩᴩᴇɴ ᴏɴ ʙᴏᴛ.
+/logger [enable/disable] : Botun aktivitelerini günlüklemeye başlar/devre dışı bırakır.
 /get_log [ɴᴜᴍʙᴇʀ ᴏғ ʟɪɴᴇs] : ɢᴇᴛ ʟᴏɢs ᴏғ ʏᴏᴜʀ ʙᴏᴛ [ᴅᴇғᴀᴜʟᴛ ᴠᴀʟᴜᴇ ɪs 100 ʟɪɴᴇs]
 /autoend [ᴇɴᴀʙʟᴇ|ᴅɪsᴀʙʟᴇ] : ᴇɴᴀʙʟᴇ sᴛʀᴇᴀᴍ ᴀᴜᴛᴏ ᴇɴᴅ ɪғ ɴᴏ ᴏɴᴇ ɪs ʟɪsᴛᴇɴɪɴɢ.
 
@@ -110,10 +108,9 @@ HELP_5 = """🥺**<u>ᴀᴅᴅ & ʀᴇᴍᴏᴠᴇ sᴜᴅᴏᴇʀs:</u>**
 /blockedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs.
 
 🤬**<u>ɢʙᴀɴ ғᴇᴀᴛᴜʀᴇ:</u>**
-/gban [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴄʜᴜᴛɪʏᴀ] : ɢʟᴏʙᴀʟʟʏ ʙᴀɴs ᴛʜᴇ ᴄʜᴜᴛɪʏᴀ ғʀᴏᴍ ᴀʟʟ ᴛʜᴇ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴀɴᴅ ʙʟᴀᴄᴋʟɪsᴛ ʜɪᴍ ғʀᴏᴍ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ.
-/ungban [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : ɢʟᴏʙᴀʟʟʏ ᴜɴʙᴀɴs ᴛʜᴇ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇᴅ ᴜsᴇʀ.
-/gbannedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇʀ ᴜsᴇʀs.
-
+/gban [kullanıcı adı veya kullanıcıya yanıt] : Tüüm sunucu sohbetlerinden kullanıcıyı global olarak engeller ve bot kullanımını ondan engeller.
+/ungban [kullanıcı adı veya kullanıcıya yanıt] : Global olarak yasaklanan kullanıcının yasağını kaldırır.
+/gbannedusers : Global olarak yasaklanan kullanıcıların listesini gösterir.
 🎥**<u>ᴠɪᴅᴇᴏᴄʜᴀᴛ ᴍᴏᴅᴇ:</u>**
 /set_video_limit [ɴᴜᴍʙᴇʀ ᴏғ ᴄʜᴀᴛs] : sᴇᴛ ᴛʜᴇ ᴍᴀxɪᴍᴜᴍ ɴᴜᴍʙᴇʀ ᴏғ ᴠɪᴅᴇᴏᴄʜᴀᴛs ᴀʟʟᴏᴡᴇᴅ ᴏɴ ʙᴏᴛ. [ᴅᴇᴀғᴜʟᴛ - 3]
 /videomode [ᴅᴏᴡɴʟᴏᴀᴅ|ᴍ3ᴜ8] : ɪғ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴇ ɪs ᴇɴᴀʙʟᴇᴅ ʙᴏᴛ ᴡɪʟʟ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ᴛʀᴀᴄᴋs ɪɴsᴛᴇᴀᴅ ᴏғ ᴩʟᴀʏɪɴɢ ᴛʜᴇᴍ ɪɴ ᴍ3ᴜ8.
@@ -134,14 +131,14 @@ HELP_5 = """🥺**<u>ᴀᴅᴅ & ʀᴇᴍᴏᴠᴇ sᴜᴅᴏᴇʀs:</u>**
 **-nobot** : ғᴏʀᴄᴇs ᴛʜᴇ ʙᴏᴛ ᴛᴏ ɴᴏᴛ ʙʀᴏᴀᴅᴄᴀsᴛ ᴛʜᴇ ᴍᴇssᴀɢᴇ..
 
 **ᴇxᴀᴍᴩʟᴇ:** `/broadcast -user -assistant -pin ᴛᴇsᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ`
-**ᴘᴏᴡʀᴇᴅ © ʙʏ** @Kurucu_sahipp"""
+**ᴘᴏᴡʀᴇᴅ © ʙʏ** @Mehmetbeydiyeceksinizzz"""
 
 HELP_7 = """💌**<u>ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ɴᴇᴡ ғᴇᴀᴛᴜʀᴇs:</u>**
 
 /alive : ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ᴀʟᴇxᴀ ᴍᴜsɪᴄ ʙᴏᴛ ɪs ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ
-/id : ᴛᴏ ᴄʜᴇᴋ ᴜsᴇʀ ᴀɴᴅ ᴄʜᴀᴛ ɪᴅ
+/id : kullanıcı id çıkarır 
 /gcast -user -assistant -pin ᴛᴇsᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ` 
-**ᴘᴏᴡʀᴇᴅ © ʙʏ** @Kurucu_sahipp
+**ᴘᴏᴡʀᴇᴅ © ʙʏ** @Mehmetbeydiyeceksinizzz
 """
 HELP_8 = """💰**<u>ꜰᴇᴀᴛᴜʀᴇ ꜰᴏʀ ʙʀᴏᴀᴅᴄᴀsᴛ sᴜʙsᴄʀɪᴘᴛɪᴏɴ:</u>**
 
@@ -158,5 +155,5 @@ HELP_8 = """💰**<u>ꜰᴇᴀᴛᴜʀᴇ ꜰᴏʀ ʙʀᴏᴀᴅᴄᴀsᴛ sᴜ�
 **ᴀɴʏᴏɴᴇ ᴄᴀɴ ᴜsᴇ**
 /mysubscription : ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴋ ʏᴏᴜʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴡɪᴛʜ ʀᴇᴍᴀɪɴɪɴɢ ᴅᴀʏs ᴀɴᴅ ʙʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴜɴᴛ.
 /paidbroadcast : sᴇɴᴅ ʙʀᴏᴀᴅᴄᴀsᴛ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜsᴇʀ ᴀɴᴅ ɢʀᴏᴜᴘs ᴀᴛ ᴀ ᴛɪᴍᴇ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀ ᴀᴄᴛɪᴠᴇ sᴜʙsᴄʀɪᴘᴛɪᴏɴ.
-**ᴘᴏᴡʀᴇᴅ © ʙʏ** @Kurucu_sahipp
+**ᴘᴏᴡʀᴇᴅ © ʙʏ** @Mehmetbeydiyeceksinizzz
 """
